@@ -1,0 +1,47 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .screen {
+    margin: 10px 0;
+  }
+  
+  .button-row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .button {
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    border-radius: 5px;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .operator {
+    background-color: #f5a623;
+    color: #fff;
+  }
+  
+  .clear {
+    background-color: #d9534f;
+    color: #fff;
+  }
+  
+  .equal {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  button:hover {
+    background-color: #eee;
+  }
+  
